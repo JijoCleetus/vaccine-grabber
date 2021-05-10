@@ -1,6 +1,14 @@
 # vaccine-grabber
 Simple Utility tool to get details of vaccine jab schedule from the CoWin App. This application have a batch job which checks every 15mins on whether a schedule is available to you or not. 
 
+## Pre-requisites
+Before you can build the application, you must install and configure the following dependencies on your
+machine:
+
+* [Git](http://git-scm.com/) is being used for maintaining our codebase and version management.
+
+* [Node.js v14.16.1 (LTS)](http://nodejs.org) is used as the development framework, and generate distributable files. Depending on your system, you can install Node either from source or as a pre-packaged bundle.
+
 ## What does this do
 Currently application runs in background polling the CoWin portal to see whether there is any availability for vaccine jab and if available it provides a desktop notification. Upon that notifation you can go ahead and book an appointment through CoWin portal.
 
