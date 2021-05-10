@@ -1,0 +1,16 @@
+{
+  "name": "vaccine-grabber",
+  "version": "1.0.0",
+  "description": "Grab Schedule for Covid Vaccine ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "predhin",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^11.8.2",
+    "node-notifier": "^9.0.1",
+    "toad-scheduler": "^1.0.2"
+  }
+}
