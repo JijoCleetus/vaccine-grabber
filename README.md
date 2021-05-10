@@ -7,6 +7,9 @@ Currently application runs in background polling the CoWin portal to see whether
 ## Why this app
 I found it very difficult to keep track of the availability of vaccine by using the government provided CoWin portal.
 
+## How to use
+The [input](./input.json) file contains the configurations that contains the search criteria's for your vaccination request. Currently there are two ways to search for appoitments - 1. District Wise 2. Pincode Wise. From all the properties in that file, only property that is relevant for enduser is the ``` activeSearchBy ``` property. You can run the appointment availability search by providing the value for that property - ("district", "pincode") based on your convenience. Once that is provided you can go ahead and run the application.
+
 ## How to run
 
   ```shell
