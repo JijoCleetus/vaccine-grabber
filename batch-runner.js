@@ -17,7 +17,7 @@ class BatchRunner {
             },
             (err) => { /* handle error here */ }
         )
-        const job = new SimpleIntervalJob({ seconds: 5, }, task);
+        const job = new SimpleIntervalJob({ minutes: 15, }, task);
         
         scheduler.addSimpleIntervalJob(job);
         

@@ -7,5 +7,8 @@
   "url": {
     "district": "https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict",
     "pincode": "https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByPin"
+  },
+  "email": {
+    "to": "predhin@gmail.com"
   }
 }
