@@ -1,0 +1,10 @@
+{
+    "client_id": "757248929752-n00g6qa74vlvlr222u46c86kdl5gt4tn.apps.googleusercontent.com",
+    "client_secret": "lDJkJJ1AgAVLgy12XFbjIyzm",
+    "refresh_token": "1//04ZdMWDUoFQ00CgYIARAAGAQSNwF-L9IrnsSbX7yzCbERSgKWMCK0Qat9-Nyi1fyBN8dbfzWGEcaaxRuhmjs6NsK3rPemmJ5QOlw",
+    "redirect_url": "https://developers.google.com/oauthplayground",
+    "email": {
+        "from": "vaccinegrabber@gmail.com",
+        "subject": "Vaccine Avalibility | Book your appointment now!"
+    }
+}
