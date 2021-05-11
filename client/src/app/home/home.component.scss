@@ -1,0 +1,18 @@
+.form-box{
+    margin: auto;
+    text-align: center;
+}
+.card-header-theme{
+    background-color: #495cc5;
+    color: #FFF;
+    padding: 18px 5px;
+}
+.card-header-theme h3{
+    margin: 0px;
+}
+
+@media only screen and (max-width:500px){
+    .form-box{
+        width: 100%;
+    }
+}

@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './shared/shared.module';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ToastrModule } from 'ngx-toastr';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,15 @@ import { ToastrModule } from 'ngx-toastr';
     NgbModule,
     SharedModule,
     NgxChartsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
     ToastrModule.forRoot() // ToastrModule added
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[
+    MatFormFieldModule
+  ]
 })
 export class AppModule { }
